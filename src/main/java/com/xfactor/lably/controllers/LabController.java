@@ -41,9 +41,9 @@ public class LabController {
 
     @GetMapping("/getAllLabs")
     public ArrayList<Lab> getAllLabs() {
-        ArrayList<Lab> arr=new ArrayList();
+       // ArrayList<Lab> arr=new ArrayList();
 
-        return arr;
+        return labs;
     }
 
     @GetMapping("/getLabByName")
